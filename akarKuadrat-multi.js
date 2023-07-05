@@ -4,7 +4,7 @@ function initializeTape() {
     plusCount = "";
     minusCount = "";
     const input1Number= document.getElementById("input1Number").value;
-    if(!check(input)){
+    if(!check(input1Number)){
       exit;
     }
     const numOfBlanks = 3; // Jumlah simbol blank di awal dan di akhir
